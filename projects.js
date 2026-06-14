@@ -29,16 +29,16 @@ const PROJECTS = [
   },
   {
     id: "oncode",
-    name: "oncode",
-    tag: "无代码库存同步工具",
+    name: "辅料盘点",
+    tag: "辅料库存盘点工具",
     logo: "◧", color: "linear-gradient(135deg,#34d399,#3b82f6)",
-    badges: ["Vite", "Node.js", "Windows EXE", "库存同步", "LAN"],
-    intro: "基于 Vite 的本地化无代码工具，主打库存数据同步，已打包成 Windows 可执行程序。" +
-           "双击 exe 即用：自动启动本地服务、自动打开浏览器；支持同一 Wi-Fi 下用手机访问 LAN 地址，" +
-           "本机即开即用、免安装、可局域网协作。",
+    badges: ["辅料盘点", "Vite", "Node.js", "Windows EXE", "LAN"],
+    intro: "面向辅料的库存盘点工具，已打包成 Windows 可执行程序，开箱即用。" +
+           "双击 exe 自动启动本地服务、打开浏览器；支持同一 Wi-Fi 下用手机访问 LAN 地址，" +
+           "方便现场用手机扫码 / 录入盘点辅料库存，免安装、可局域网多人协作。",
     features: [
-      "无代码方式配置 / 同步库存数据",
-      "双击 exe 自动起服务并打开浏览器，同 Wi-Fi 手机可访问",
+      "辅料库存盘点 / 录入 / 同步",
+      "双击 exe 自动起服务并打开浏览器，同 Wi-Fi 手机可现场盘点",
       "Win7 ~ Win11 可用，免安装，整文件夹复制即可分发",
     ],
     usage: [
@@ -48,9 +48,8 @@ const PROJECTS = [
     usageNote: "手机与电脑需在同一个 Wi-Fi。或在源码目录 npm run dev 本地开发。",
     source: "https://github.com/iramembritc586-sudo/nocode-inventory-sync",
     noWeb: true,         // 无独立网页版：网页界面由 exe 程序自身启动
-    downloadPending: true, // ← exe 构建发布后把下方 download 填上即可
     webUrl: "",
-    download: "",        // ← 放 nocode.exe 下载链接（仓库 Release）
+    download: "https://github.com/iramembritc586-sudo/nocode-inventory-sync/releases/download/v1.0.0/nocode.exe",
   },
   {
     id: "toursaas",
