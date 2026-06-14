@@ -30,25 +30,25 @@ const PROJECTS = [
   {
     id: "oncode",
     name: "oncode",
-    tag: "本地无代码工具",
+    tag: "无代码库存同步工具",
     logo: "◧", color: "linear-gradient(135deg,#34d399,#3b82f6)",
-    badges: ["Vite", "Node.js", "Windows EXE", "LAN"],
-    intro: "基于 Vite 的本地化无代码 / 低代码工具，已打包成 Windows 可执行程序。" +
-           "双击 exe 即用：自动启动本地服务、自动打开浏览器；支持同一 Wi-Fi 下用手机扫码 / 访问 LAN 地址，" +
-           "适合快速搭页面、本机即开即用、局域网协作。",
+    badges: ["Vite", "Node.js", "Windows EXE", "库存同步", "LAN"],
+    intro: "基于 Vite 的本地化无代码工具，主打库存数据同步，已打包成 Windows 可执行程序。" +
+           "双击 exe 即用：自动启动本地服务、自动打开浏览器；支持同一 Wi-Fi 下用手机访问 LAN 地址，" +
+           "本机即开即用、免安装、可局域网协作。",
     features: [
-      "双击 exe 自动起服务并打开浏览器",
-      "同一 Wi-Fi 下手机可访问控制台显示的 LAN 地址",
-      "Win7 ~ Win11 可用，免安装",
+      "无代码方式配置 / 同步库存数据",
+      "双击 exe 自动起服务并打开浏览器，同 Wi-Fi 手机可访问",
+      "Win7 ~ Win11 可用，免安装，整文件夹复制即可分发",
     ],
     usage: [
       "双击 nocode.exe",
       "浏览器自动打开 → 手机访问控制台显示的 http://192.168.x.x:8080",
     ],
-    usageNote: "手机与电脑需在同一个 Wi-Fi。整文件夹复制即可分发。",
-    source: "",          // 暂无公开源码仓库
+    usageNote: "手机与电脑需在同一个 Wi-Fi。或在源码目录 npm run dev 本地开发。",
+    source: "https://github.com/iramembritc586-sudo/nocode-inventory-sync",
     webUrl: "",          // ← 部署后填
-    download: "",        // ← 放 exe 下载链接
+    download: "",        // ← 放 exe 下载链接（仓库 Release 里的 nocode.exe）
   },
   {
     id: "toursaas",
