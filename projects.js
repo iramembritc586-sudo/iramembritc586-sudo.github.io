@@ -96,7 +96,7 @@ const PROJECTS = [
     ],
     usageNote: "需 Python 3 与 FFmpeg；可选 mpv / aria2。桌面版另提供 Windows exe，双击即用。",
     source: "https://github.com/iramembritc586-sudo/video-parser",
-    webUrl: "http://127.0.0.1:8731",   // ← 部署后改成你的服务器地址
+    webUrl: "http://43.228.76.27:8731",   // 服务器上的 video-parser 网页版
     download: "https://github.com/iramembritc586-sudo/video-parser/releases/download/v1.0.0/video-parser.exe",
   },
 ];
