@@ -47,8 +47,10 @@ const PROJECTS = [
     ],
     usageNote: "手机与电脑需在同一个 Wi-Fi。或在源码目录 npm run dev 本地开发。",
     source: "https://github.com/iramembritc586-sudo/nocode-inventory-sync",
-    webUrl: "",          // ← 部署后填
-    download: "",        // ← 放 exe 下载链接（仓库 Release 里的 nocode.exe）
+    noWeb: true,         // 无独立网页版：网页界面由 exe 程序自身启动
+    downloadPending: true, // ← exe 构建发布后把下方 download 填上即可
+    webUrl: "",
+    download: "",        // ← 放 nocode.exe 下载链接（仓库 Release）
   },
   {
     id: "toursaas",

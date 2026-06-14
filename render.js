@@ -9,11 +9,13 @@ function actionButtons(p) {
   const btns = [];
   if (p.webUrl) {
     btns.push(`<a class="btn primary" href="${p.webUrl}" target="_blank" rel="noopener">▶ 打开网页版</a>`);
-  } else {
+  } else if (!p.noWeb) {
     btns.push(`<span class="btn disabled" title="部署后在 projects.js 填入 webUrl">网页版（待部署）</span>`);
   }
   if (p.download) {
     btns.push(`<a class="btn" href="${p.download}">⬇ 下载程序</a>`);
+  } else if (p.downloadPending) {
+    btns.push(`<span class="btn disabled" title="构建发布后填入 download">下载（待发布）</span>`);
   }
   if (p.source) {
     btns.push(`<a class="btn" href="${p.source}" target="_blank" rel="noopener">⟀ 源码 GitHub</a>`);
