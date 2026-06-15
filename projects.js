@@ -72,7 +72,8 @@ const PROJECTS = [
     ],
     usageNote: "需 PHP / Composer / 数据库环境（如 MySQL）。",
     source: "https://github.com/iramembritc586-sudo/TourSaaS",
-    webUrl: "",          // ← 部署后填
+    webUrl: "http://43.228.76.27:8002",   // 服务器 Docker 部署（nginx+php-fpm+mysql+redis）
+    demo: { account: "admin@test.com", password: "123456" },
     download: "",
   },
   {
