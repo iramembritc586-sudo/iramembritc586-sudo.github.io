@@ -48,7 +48,7 @@ function card(p) {
         <pre>${usage}</pre>
         ${p.usageNote ? `<div class="p-tag" style="margin-top:8px">${esc(p.usageNote)}</div>` : ""}
       </div>
-      ${p.demo ? `<div class="p-tag">演示账号：<b>${esc(p.demo.account)}</b> / 密码：<b>${esc(p.demo.password)}</b></div>` : ""}
+      ${p.demo ? `<div class="p-tag">演示账号：<b>${esc(p.demo.account)}</b> / 密码：<b>${esc(p.demo.password)}</b>${p.demo.note ? `（${esc(p.demo.note)}）` : ""}</div>` : ""}
       ${actionButtons(p)}
     </div>
   </article>`;

@@ -24,7 +24,8 @@ const PROJECTS = [
     ],
     usageNote: "需本机装有 FFmpeg / ffprobe（不在 PATH 时用 FFPROBE_BINARY / FFMPEG_BINARY 指定路径）。",
     source: "https://github.com/iramembritc586-sudo/iraone",
-    webUrl: "",          // ← 部署后填，如 https://你的域名/iraone/
+    webUrl: "http://43.228.76.27:8003",   // 服务器 Docker 部署（Django+Postgres+Redis+Celery+nginx）
+    demo: { account: "admin", password: "Iraone@2026", note: "后台 /admin/" },
     download: "",
   },
   {
