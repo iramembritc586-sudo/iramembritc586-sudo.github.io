@@ -50,7 +50,7 @@ const PROJECTS = [
     source: "https://github.com/iramembritc586-sudo/nocode-inventory-sync",
     noWeb: true,         // 无独立网页版：网页界面由 exe 程序自身启动
     webUrl: "",
-    download: "https://github.com/iramembritc586-sudo/nocode-inventory-sync/releases/download/v1.0.0/nocode.exe",
+    download: "https://github.com/iramembritc586-sudo/nocode-inventory-sync/releases/download/v1.1.0/nocode.exe",
   },
   {
     id: "toursaas",
